@@ -25,7 +25,7 @@ class GoldenHead extends GoldenApple
      */
     public function getAdditionalEffects() : array
     {
-        return;
+        return true;
             $eff = new EffectInstance(Effect::getEffect(Effect::REGENERATION) , 500 * 20 , 5 , false);
             $eff = new EffectInstance(Effect::getEffect(Effect::APSORPTION) , 500 * 20 , 5 , false);
 			$player->addEffect($eff);
