@@ -1,0 +1,5 @@
+name: UHC
+version: 2.0
+author: JavaPluginFX
+main: uhc\UHC
+api: 3.0.0-ALPHA12
